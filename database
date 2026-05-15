@@ -1,0 +1,15 @@
+create database db_ukt_uin:
+use db_ukt_uin
+CREATE TABLE mahasiswa (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nama VARCHAR(100),
+    jurusan VARCHAR(100),
+    penghasilan BIGINT,
+    tanggungan INT,
+    jalur VARCHAR(50),
+    prestasi VARCHAR(100),
+    kondisi_ortu VARCHAR(100),
+    semester INT,
+    grade_ukt VARCHAR(20),
+    nominal_ukt BIGINT
+);
